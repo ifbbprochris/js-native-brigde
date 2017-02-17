@@ -1,7 +1,7 @@
 'use strict';
 (function(window){
     var methods={};
-    window.imeBridge={
+    window.jsNavtiveBridge={
         statics:{
             status:{
                 READY:'ready'

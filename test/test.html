@@ -10,7 +10,7 @@
 <script>
 window.imeBridge.$init(function(){
     setTimeout(function(){
-        window.imeBridge.$sendMessage('getData','xsid',function(result){
+        window.jsNavtiveBridge.$sendMessage('getData','xsid',function(result){
             alert(result);
         });
     },1000)
