@@ -1,0 +1,22 @@
+{
+  "name": "js-native-brigde",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ChrisFuck/js-native-brigde.git"
+  },
+  "author": "chris",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ChrisFuck/js-native-brigde/issues"
+  },
+  "homepage": "https://github.com/ChrisFuck/js-native-brigde#readme"
+}

@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>TEST</title>
+    <meta charset='UTF-8'>
+</head>
+<body>
+    Test
+<script type="text/javascript" src="../src/index.js"></script>
+<script>
+window.imeBridge.$init(function(){
+    setTimeout(function(){
+        window.imeBridge.$sendMessage('getData','xsid',function(result){
+            alert(result);
+        });
+    },1000)
+});
+</script>
+</body>
+</html>
